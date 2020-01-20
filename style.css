@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* NAVIGATION */
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+}
+
+#nav li {
+  display: inline;
+}
+
+#nav a {
+  padding: 8px;
+  color: black;
+  text-decoration: none;
+  font: 0.8em "Roboto", sans-serif;
+}
+#nav a:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+/* BODY */
+#body img {
+  display: block;
+  margin: auto;
+  padding-top: 10em;
+}
+
+#body input {
+  display: block;
+  margin: auto;
+  margin-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#body button {
+  display: inline-block;
+  margin: auto;
+  margin-top: 1em;
+}
+
+#body p {
+  font: 1em "Roboto", Sans-serif;
+  display: block;
+  text-align: center;
+  margin-top: 1em;
+}
+
+/* FOOTER */
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #E9E9E9;
+}
+
+#footer p {
+  display: block;
+  font: 0.9em "Roboto", sans-serif;
+  color: #676767;
+  margin-left: 30px;
+  margin-top: 0.5em;
+  line-height: 30px;
+}
+
+#footer a {
+  margin-left: 30px;
+  color: #676767;
+  text-decoration: none;
+  font: 0.9em "Roboto", sans-serif;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+#footer ul {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+}
+
+ul.right {
+  float: right;
+}
+
+span {
+  margin-right: 30px;
+}
+
+#footer li {
+  display: inline;
+}
